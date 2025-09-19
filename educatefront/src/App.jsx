@@ -18,7 +18,7 @@ function App() {
   const handleLogout = () => {
     setIsLoggedIn(false)
   }
-
+//new
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar isLoggedIn={isLoggedIn} onLogin={handleLogin} onLogout={handleLogout} />
